@@ -53,11 +53,10 @@ $string['footnotedesc'] = 'The content from this textarea will be displayed in t
 
 // Theme info
 $string['choosereadme'] = 
-'<div class="clearfix"><div class="theme_screenshot"><h2>CVN</h2>
-<img src="cvn/pix/screenshot.png" />
+'<div class="clearfix"><div class="theme_screenshot"><h2>Marinada</h2>
+<img src="marinada/pix/screenshot.png" />
 <h3>Theme Credits</h3><p>
-This theme is based in the Bootstrap theme created by:<br>
-Bas Brands <br />
+This theme is based in the Bootstrap theme created by: Bas Brands <br />
 
 <h2>License</h2><p>This theme is licensed under the <a href="http://www.gnu.org/licenses/gpl.html">GNU General Public License</a>.</div></div>';
 
