@@ -1,0 +1,121 @@
+/**
+ *
+ * DO NOT MODIFY THIS THEME!
+ * COPY IT FIRST, THEN RENAME THE COPY AND MODIFY IT INSTEAD.
+ *
+ * For full information about creating Moodle themes, see:
+ * http://docs.moodle.org/dev/Themes_2.0
+ *
+ * Martinada Theme CSS file 
+ *
+ */
+
+ /**
+ * @package    theme
+ * @subpackage marinada
+ * @copyright  2013 Fernando Acedo. http://3-bits.com
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+
+/* Menu **************************************************/
+
+/* Menu item adjust */
+.block .header .title .commands, 
+.block_adminblock .content, 
+.block .footer, 
+.block .block_tree li>p>a, 
+.block .block_tree li>p>span {
+	display: block;
+	padding: 3px 15px;
+}
+
+/* Remove bullet icon in the course listing */
+.coursebox>.info>.name a {
+    background-image: none;
+}
+
+/* Adjust breadcrumb */
+.breadcrumb {
+    margin-top: 60px;
+}
+
+/* Adjust Settings menu icon */
+.navicon {
+    display: none;
+}
+
+/* Adjust position */
+.block_settings .block_tree .tree_item.branch ,
+.block_navigation .block_tree .tree_item.branch  {
+    background-position: 7% 50%;
+}
+
+/* Remove menu icon */
+.tree_item  a img {
+    display: none;
+}
+
+
+
+/* Navbar adjust ******************************************/
+.navbar-fixed-top {
+    top: 140px;
+}
+
+.navbar-text {
+color: #ffffff;
+}
+
+.navbar .logininfo a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+
+
+/* Logos adjust *******************************************/
+
+.header-logo {
+    width: 300px;
+    height: 110px;
+    float: left;
+}
+
+.header-logo2{
+    display: inline;
+    width: 300px;
+    height: 110px;
+    float: right;
+}
+
+.navbar {
+    display: block;
+    clear: both;
+}
+
+
+/* General adjusts ***************************************/
+
+body {
+    padding-top: 0px;
+}
+
+.container-fluid {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+    
+#page-footer {
+    border-top: none;
+}   
+
+#page-header {
+    margin-top: 10px;
+} 
+    
+.breadcrumb {
+	background-color: #ffffff;
+	font-size: 14px;
+}
+    

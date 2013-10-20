@@ -1,0 +1,94 @@
+/**
+ *
+ * DO NOT MODIFY THIS THEME!
+ * COPY IT FIRST, THEN RENAME THE COPY AND MODIFY IT INSTEAD.
+ *
+ * For full information about creating Moodle themes, see:
+ * http://docs.moodle.org/dev/Themes_2.0
+ *
+ * Settings CSS file 
+ *
+ */
+
+ /**
+ * @package    theme
+ * @subpackage marinada
+ * @copyright  2013 Fernando Acedo. http://3-bits.com
+ * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+/* Theme general settings **************/ 
+body {
+    background-color: [[setting:bodybgcolor]];
+}
+
+a {
+    color: [[setting:linkcolor]];
+}
+
+a:hover {
+    color: [[setting:linkhovercolor]];
+    text-decoration: none;
+}
+
+
+/* Menu item active background **********/
+.block_tree li p.tree_item branch,
+.block_tree li p.active_tree_node, 
+.block_tree li p.active_tree_node a, 
+.block_tree li p.active_tree_node:hover,
+.block_tree li p.active_tree_node a:hover { 
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
+    background-color: [[setting:menubgcolor]];
+}
+
+
+.dropdown-menu>li>a:focus,
+.dropdown-submenu:hover>a,
+.dropdown-submenu:focus>a,
+.dropdown-menu>li>a:hover {
+    background-color: [[setting:menubgcolor]];
+}
+
+
+
+
+
+/* Menu colors *********************** */
+.navbar-inner {
+    background-color: [[setting:topmenubgcolor]];
+    background-image: none;
+}
+
+.navbar .brand {
+    color: [[setting:topmenulinkcolor]];
+}
+
+.navbar .nav > li > a {
+    color: [[setting:topmenulinkcolor]];
+    text-shadow: none;
+}    
+
+.navbar .nav > li > a:hover {
+    color: [[setting:topmenulinkhovercolor]];
+}    
+
+
+.navbar .logininfo a:hover {
+    color: [[setting:topmenulinkhovercolor]];
+    text-decoration: underline;
+}
+
+.navbar .nav li.dropdown>.dropdown-toggle .caret {
+    border-top-color: [[setting:topmenulinkcolor]];
+    border-bottom-color: [[setting:topmenulinkcolor]];
+}
+
+.caret {
+border-top-color: [[setting:topmenulinkhovercolor]];
+border-bottom-color: [[setting:topmenulinkhovercolor]];
+
+}
+
+
